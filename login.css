@@ -1,0 +1,107 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('netflixbackground.jpg'); /* Replace with the actual Netflix background image */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background-color: rgba(0, 0, 0, 0.7); /* Dark overlay effect */
+    padding: 50px;
+    border-radius: 8px;
+    max-width: 400px;
+    width: 100%;
+    color: white;
+}
+
+.login-box h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.input-box {
+    margin-bottom: 15px;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 12px;
+    background-color: #333;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+}
+
+.error-msg {
+    color: #e87c03;
+    font-size: 14px;
+    display: none;
+}
+
+.btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #e50914;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+}
+
+.btn.secondary {
+    background-color: #333;
+    margin-top: 10px;
+}
+
+.extra-options {
+    margin-top: 20px;
+}
+
+.forgot-password {
+    display: block;
+    color: #b3b3b3;
+    margin: 10px 0;
+    text-align: center;
+    text-decoration: none;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    color: #b3b3b3;
+}
+
+.remember-me input {
+    margin-right: 10px;
+}
+
+.signup {
+    margin-top: 20px;
+    color: #b3b3b3;
+}
+
+.signup a {
+    color: white;
+    text-decoration: none;
+}
+
+.signup a:hover {
+    text-decoration: underline;
+}
